@@ -38,4 +38,31 @@ for i in range(len(g)):
     j.append(product3)
 print('(g * h) = ',j)
 print('The sum of all numbers :', sum(j))
+##########################################
+k = [7,2,3,1,1 ]
+l = [3,4,5,2,1]
+m = []
+
+print('Given vectors: k = ', k, 'l = ', l)
+print('Inner Product of two vectors: (k * l)')
+for i in range(len(k)):
+    product4 = k[i] * l[i]
+    print(k[i], '*', l[i], '=', product4, '+')
+    m.append(product4)
+print('(k * l) = ',m)
+print('The sum of all numbers :', sum(m))
+print('#'*64)
+##########################################
+n = [4,5,5,1,8 ]
+o = [2,4,5,2,2]
+p = []
+
+print('Given vectors: n = ', n, 'o = ', o)
+print('Inner Product of two vectors: (n * o)')
+for i in range(len(n)):
+    product5 = n[i] * o[i]
+    print(n[i], '*', o[i], '=', product5, '+')
+    p.append(product5)
+print('(n * o) = ',p)
+print('The sum of all numbers :', sum(p))
 
